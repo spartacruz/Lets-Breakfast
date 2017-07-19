@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Lets Breakfast!</string>
+
+    <string name="RotiTawarDYK">
+        Dalam roti tawar terkandung serat, vitamin B, zat besi dan zat mikro lainnya yang baik untuk tubuhmu.
+        Roti tawar sangat populer dikonsumsi oleh orang Amerika sejak tahun 1941 hingga saat ini.
+        \n\nAnda hanya perlu mengoles mentega, coklat, selai buah atau memakan roti tawar secara langsung.</string>
+    
+    <string name="RotiBolilloDYK">Roti ini berasal dari daerah Meksiko memiliki kulit yang keras dan biasanya dibelah untuk dipergunakan sebagai dasar dari sandwich.</string>
+    <string name="RotiChallahDYK">Roti Challah merupakan roti ragi yang juga berasal dari daratan Eropa Timur. Dibuat dengan menggunakan telur dan mentega,
+        memiliki tekstur yang sangat empuk dan memiliki bentuknya dikepang.</string>
+    <string name="RotiCroissantDYK"> Croissant adalah roti yang berasal dari Prancis, dibuat dari adonan puff pastry,
+        sehingga renyah dan juga sangat empuk. Roti ini biasanyanya di sajikan saat sarapan dengan kopi, teh atau sandwich.</string>
+    <string name="RotiCrumpetDYK">Crumpet adalah sejenis roti muffin tapi teksturnya lebih lembab yang berasal dari Inggris, sering disajikan dengan diolesi krim padat, mentega, atau madu,
+        dan dimakan pada saat minum teh sore. \n\nSebelum dihidangkan, roti ini biasa di panggang atau di bakar terlebih dahulu.</string>
+
+    <string name="BuburKacangHijauDYK">Bubur yang terbuat dari kacang hijau ini konon katanya sudah ada sejak pertengahan abad ke-19 di Pulau Jawa.
+        Mempunyai cita rasa manis, bubur kacang hijau yang dimasak dengan tambahan gula merah dan daun pandan ini memiliki aroma yang sedap.
+        \n\nBubur kacang hijau biasa disantap dengan tambahan kuah santan kental, ketan hitam, dan roti tawar.
+        Tak seperti bubur lainnya, bubur kacang hijau bisa disantap dalam keadaan panas maupun dingin dengan tambahan es batu.</string>
+
+    <string name="BuburSumsumDYK">Tidak sesuai dengan namanya, bubur sumsum tidak terbuat dari sumsum sapi, melainkan dari tepung beras.
+        Bubur sumsum merupakan bubur yang mempunyai cita rasa manis yang disajikan dengan kuah santan dan gula merah.
+        Biasanya ada tambahan biji salak dan ketan hitam sehingga rasanya lebih bervariasi.
+        \n\nTidak diketahui pasti asal daerah bubur sumsum, tapi bubur sumsum ini paling banyak ditemukan di daerah Jawa Timur.</string>
+
+    <string name="BuburAyamDYK">Bubur ayam ini terbuat dari beras yang diberi kuah kuning yang menjadi ciri khasnya, kecap manis, serta aneka topping seperti suwiran ayam, kacang kedelai, cakwe, irisan daun bawang seledri, serta taburan kerupuk, dan emping.
+        \n\nBubur ayam yang sering dijadikan menu sarapan ini memang diadaptasi dari kuliner Tionghoa.</string>
+
+    <string name="BuburKampiunDYK">Bubur kampiun alias bubur minang ini berasal dari daerah Minangkabau.
+        Sekilas tampilannya mirip dengan bubur sumsum dan kolak karena dibuat dari tepung beras, santan, gula merah, daun pandan, serta pisang tanduk.
+        \n\nBubur yang mempunyai rasa manis ini tercipta pada tahun 1960 setelah perang PRRI.
+        Saat itu, para tokoh adat Bukittinggi mengadakan lomba kreasi bubur untuk mengembalikan rasa tenang akibat trauma perang.
+        \n\nNama kampiun diambil dari bahasa Inggris, champion yang artinya pemenang.</string>
+
+    <string name="NasiUdukDYK">Nasi uduk adalah salah satu makanan tradisional yang berasal dari Jakarta, dibuat dari beras yang dikukus dengan santan dan diberi bumbu pala, merica, jahe, kayu manis dan daun pandan untuk memberi aroma yang harum pada nasi uduk kemudian dihidangkan bersama emping goreng, tahu goreng, telur dadar, abon, tempe, ayam ataupun daging serta di lengkapi dengan bawang goreng.
+    \NBiasanya disantap sebagai menu sarapan, tetapi bisa juga disantap pada malam hari.
+        \n\nNasi uduk memiliki citarasa gurih, memiliki aroma yang harum dan (tentu saja) lezat.</string>
+
+    <string name="NasiUlamDYK">Nasi ulam dihidangkan dengan daun kemangi, kacang tanah tumbuk, serundeng (kelapa parut yang telah disangrai), sambal, dendeng, telur dadar, perkedel, tahu, tempe dan kerupuk.
+    \n\nNasi ulam mirip dengan nasi uduk, namun nasi ulam dimasak tanpa menggunakan santan.</string>
+
+    <string name="NasiKuningDYK">Nasi kuning dibuat dari beras yang direbus bersama kunyit, santan dan rempah-rempah. Nasi kuning memiliki rasa yang lebih gurih daripada nasi putih.
+    \nWarna nasi kuning melambangkan gunung emas yang memiliki makna kekayaan, kemakmuran dan moral yang luhur dan biasanya dipakai untuk acara syukuran seperti pernikahan, kelahiran, dan pertunangan.
+        \n\nCiri khas nasi kuning terletak pada warnanya yang kuning yang berasal dari kunyit.
+    </string>
+</resources>
