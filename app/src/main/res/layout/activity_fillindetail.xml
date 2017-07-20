@@ -36,12 +36,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
                 <TextView
                     android:id="@+id/fid_foodname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:text="Bubur" />
+                    android:text="Bubur " />
+
+                    <TextView
+                        android:id="@+id/fid_foodname_specify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ayam"/>
+
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
