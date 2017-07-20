@@ -1,6 +1,6 @@
 # Let's Breakfast!
 
-Lorem ipsum dolor sit amet
+A Java based Android app - Its all about breakfast!
 
 ## Getting Started
 
