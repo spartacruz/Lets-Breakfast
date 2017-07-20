@@ -25,69 +25,70 @@ public class FillInDetailActivity extends AppCompatActivity {
         if (OrderFoodMenuActivity.pilihanMenu == 1) {
             foodName.setText("Roti ");
 
-            if (OrderFood1Activity.pilihanRoti == 1) {
-                foodNameSpecify.setText("Tawar");
-            } else {
-                if (OrderFood1Activity.pilihanRoti == 2) {
+            switch (OrderFood1Activity.pilihanRoti) {
+                case 1:
+                    foodNameSpecify.setText("Tawar");
+                    break;
+
+                case 2:
                     foodNameSpecify.setText("Bollilo");
-                } else {
-                    if (OrderFood1Activity.pilihanRoti == 3) {
-                        foodNameSpecify.setText("Challah");
-                    } else {
-                        if (OrderFood1Activity.pilihanRoti == 4) {
-                            foodNameSpecify.setText("Croissant");
-                        } else {
-                            if (OrderFood1Activity.pilihanRoti == 5) {
-                                foodNameSpecify.setText("Crumpet");
-                            }
-                        }
-                    }
-                }
+                    break;
+
+                case 3:
+                    foodNameSpecify.setText("Challah");
+                    break;
+
+                case 4:
+                    foodNameSpecify.setText("Croissant");
+                    break;
+
+                case 5:
+                    foodNameSpecify.setText("Crumpet");
+                    break;
             }
         } else {
             if (OrderFoodMenuActivity.pilihanMenu == 2) {
                 foodName.setText("Bubur ");
 
-                if (OrderFood1Activity.pilihanBubur == 1) {
-                    foodNameSpecify.setText("Kacang Hijau");
-                } else {
-                    if (OrderFood1Activity.pilihanBubur == 2) {
+                switch (OrderFood1Activity.pilihanBubur) {
+                    case 1:
+                        foodNameSpecify.setText("Kacang Hijau");
+                        break;
+
+                    case 2:
                         foodNameSpecify.setText("Sumsum");
-                    } else {
-                        if (OrderFood1Activity.pilihanBubur == 3){
-                            foodNameSpecify.setText("Ayam");
-                        } else {
-                            if (OrderFood1Activity.pilihanBubur == 4){
-                                foodNameSpecify.setText("Kampiun");
-                            }
-                        }
-                    }
+                        break;
+
+                    case 3:
+                        foodNameSpecify.setText("Ayam");
+                        break;
+
+                    case 4:
+                        foodNameSpecify.setText("Kampiun");
+                        break;
                 }
+
             } else {
                 if (OrderFoodMenuActivity.pilihanMenu == 3) {
                     foodName.setText("Nasi ");
 
+                    switch (OrderFood1Activity.pilihanNasi) {
+                        case 1:
+                            foodNameSpecify.setText("Uduk");
+                            break;
 
-                    if (OrderFood1Activity.pilihanNasi == 1) {
-                        foodNameSpecify.setText("Kacang Hijau");
-                    } else {
-                        if (OrderFood1Activity.pilihanNasi == 2) {
-                            foodNameSpecify.setText("Sumsum");
-                        } else {
-                            if (OrderFood1Activity.pilihanNasi == 3){
-                                foodNameSpecify.setText("Ayam");
-                            } else {
-                                if (OrderFood1Activity.pilihanNasi == 4){
-                                    foodNameSpecify.setText("Kampiun");
-                                }
-                            }
-                        }
+                        case 2:
+                            foodNameSpecify.setText("Ulam");
+                            break;
+
+                        case 3:
+                            foodNameSpecify.setText("Kuning");
+                            break;
                     }
-                }
-            }
-        }
 
-    }
+                }
+
+            }
 
 //    private void calculatePrice() {
 //        int basePrice;
@@ -97,4 +98,6 @@ public class FillInDetailActivity extends AppCompatActivity {
 //        return OrderFood1Activity.quantity * basePrice;
 //    }
 
+        }
+    }
 }
