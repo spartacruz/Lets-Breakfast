@@ -22,6 +22,9 @@
         <activity android:name=".OrderFood1Activity"
             android:label="Aneka Nasi"/>
 
+        <activity android:name=".PurchaseHasBeenMadeActivity"
+            android:label="Completed!"/>
+
         <activity android:name=".FillInDetailActivity"
             android:label="Fill In Detail"></activity>
     </application>
