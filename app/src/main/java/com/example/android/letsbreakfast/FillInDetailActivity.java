@@ -168,7 +168,7 @@ public class FillInDetailActivity extends AppCompatActivity {
                     //else, show an alert dialog.
                     final AlertDialog.Builder builder = new AlertDialog.Builder(this);
                     builder.setTitle("Warning");
-                    builder.setMessage("Please make sure that all shipping details is correct.\nDo you wish to proceed?");
+                    builder.setMessage("Please make sure that all shipping details is correct.\n\nDo you wish to proceed?");
 
                     //when users press "yes", they will move to new intent (activity_purchasehasbeenmade)
                     builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
