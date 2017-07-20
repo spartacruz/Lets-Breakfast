@@ -28,10 +28,10 @@ public class OrderFood1Activity extends AppCompatActivity implements OnItemSelec
     public static String titleActionBar;
     public static int imageHeader;
 
-    int quantity = 1;
-    int pilihanRoti;
-    int pilihanBubur;
-    int pilihanNasi;
+    public static int quantity = 1;
+    public static int pilihanRoti;
+    public static int pilihanBubur;
+    public static int pilihanNasi;
 
 
     @Override
