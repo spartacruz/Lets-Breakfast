@@ -175,6 +175,8 @@ public class FillInDetailActivity extends AppCompatActivity {
                         public void onClick(DialogInterface dialog, int id) {
                             Intent intent = new Intent(FillInDetailActivity.this, PurchaseHasBeenMadeActivity.class);
                             startActivity(intent);
+                            // finish() method will prevent user for go back to previous intent (activity_fillindetail)
+                            finish();
 
                         }
                     });
@@ -202,7 +204,6 @@ public class FillInDetailActivity extends AppCompatActivity {
      * @return total prices
      */
     private int calculatePrice(int pilihanMenu) {
-//        int basePrice = 13000;
 
         if (OrderFoodMenuActivity.pilihanMenu == 1) {
 
@@ -220,9 +221,6 @@ public class FillInDetailActivity extends AppCompatActivity {
                     break;
 
                 case 4: //croissant
-                    basePrice = 10000;
-                    break;
-
                 case 5: //crumpet
                     basePrice = 10000;
                     break;
@@ -232,9 +230,6 @@ public class FillInDetailActivity extends AppCompatActivity {
 
                 switch (OrderFood1Activity.pilihanBubur) {
                     case 1: //Kacang Hijau
-                        basePrice = 3000;
-                        break;
-
                     case 2: //Sumsum
                         basePrice = 3000;
                         break;
