@@ -132,7 +132,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:text="Shipping Detail"
+                android:text="Delivery Detail"
                 android:textColor="#424242"
                 android:textSize="20sp" />
         </LinearLayout>
