@@ -64,4 +64,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Google search! For helping me find something
 
 
-Credit goes to [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) for Readme template.
+*Credit goes to [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) for Readme template.*
