@@ -40,17 +40,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="3">
-                <TextView
-                    android:id="@+id/fid_foodname"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bubur " />
+
+                    <TextView
+                        android:id="@+id/fid_foodname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bubur " />
 
                     <TextView
                         android:id="@+id/fid_foodname_specify"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ayam"/>
+                        android:text="ayam" />
 
                 </LinearLayout>
 
@@ -197,7 +198,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
-            android:text="Next step" />
+            android:onClick="warning"
+            android:text="Buy Now" />
 
     </LinearLayout>
 </ScrollView>
