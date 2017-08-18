@@ -2,39 +2,26 @@
 
 A Java based Android app - Its all about breakfast!
 
-## Getting Started
+This app is my side project .... (this line will be update later)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+Do with them what you want (please use it wisely) and feel free to send updates or improvements or ideas.
+Also, if you are getting confused with certain code, please don't hesitate to contact me.
 
-What things you need to install the software and how to install them
+## Prerequisites
 
-```
-Give examples
-```
+What things you need to install the software :
 
-### Installing
+* Android SDK
+* Android Build Tools
 
-A step by step series of examples that tell you have to get a development env running
+### Getting Started
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+This sample uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+You can create an APK files at Android Studio. Go to Android Studio, Click Build > Build APK
 
 ## Built With
 
@@ -53,8 +40,6 @@ I'm use [Git](https://git-scm.com/) for versioning.
 
 * **Yuri** - *Initial work* - [Spartacruz](https://github.com/spartacruz)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -62,6 +47,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Google search! For helping me find something
+* [Stack Overflow](https://stackoverflow.com/)
+* [Android Basic Nanodegree by Udacity](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803)
 
 
 *Credit goes to [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) for Readme template.*
